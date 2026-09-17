@@ -1,1 +1,120 @@
-{"species":"羌活","surveyVersion":"survey-2026-2","permits":[{"id":"permit-a","parcel":"p-17","quotaKg":"45"},{"id":"permit-b","parcel":"p-17-overlap","quotaKg":"30"}],"events":[{"device":"field-3","sequence":18,"offline":true,"accuracyMeters":"36"},{"device":"field-3","sequence":18,"offline":true,"accuracyMeters":"36"}]}
+{
+  "patrolId": "patrol-2026-09-p17",
+  "species": "羌活",
+  "speciesCode": "QIANGHUO",
+  "surveyVersion": "survey-2026-2",
+  "laterSurveyVersion": "survey-2026-3",
+  "laterParcelVersion": "geo-2026-2",
+  "season": "2026",
+  "officer": "ranger-wang",
+  "limits": {
+    "teamKg": {"team-7": "70"},
+    "parcelKg": {"p-17": "40", "p-17-overlap": "30", "p-19": "10"},
+    "speciesKg": {"QIANGHUO": "66"}
+  },
+  "parcels": [
+    {
+      "id": "p-17",
+      "version": "geo-2026-1",
+      "polygon": [
+        [31.2000, 103.5000], [31.2100, 103.5000],
+        [31.2100, 103.5100], [31.2000, 103.5100]
+      ],
+      "coreZones": [
+        [
+          [31.20473, 103.50468], [31.20527, 103.50468],
+          [31.20527, 103.50532], [31.20473, 103.50532]
+        ]
+      ]
+    },
+    {
+      "id": "p-17-overlap",
+      "version": "geo-2026-1",
+      "polygon": [
+        [31.2060, 103.5060], [31.2160, 103.5060],
+        [31.2160, 103.5160], [31.2060, 103.5160]
+      ],
+      "coreZones": []
+    },
+    {
+      "id": "p-19",
+      "version": "geo-2026-1",
+      "polygon": [
+        [31.3000, 103.6000], [31.3060, 103.6000],
+        [31.3060, 103.6060], [31.3000, 103.6060]
+      ],
+      "coreZones": []
+    },
+    {
+      "id": "p-17",
+      "version": "geo-2026-2",
+      "polygon": [
+        [31.2000, 103.5000], [31.2100, 103.5000],
+        [31.2100, 103.5100], [31.2000, 103.5100]
+      ],
+      "coreZones": [
+        [
+          [31.20400, 103.50400], [31.20600, 103.50400],
+          [31.20600, 103.50600], [31.20400, 103.50600]
+        ]
+      ]
+    }
+  ],
+  "permits": [
+    {"id": "permit-a", "team": "team-7", "parcel": "p-17", "quotaKg": "45",
+     "surveyVersion": "survey-2026-2", "parcelVersion": "geo-2026-1",
+     "validFrom": "2026-08-01", "validUntil": "2026-10-31",
+     "approvedBy": "admin-zhao", "approvedAt": "2026-07-20"},
+    {"id": "permit-b", "team": "team-7", "parcel": "p-17-overlap", "quotaKg": "30",
+     "surveyVersion": "survey-2026-2", "parcelVersion": "geo-2026-1",
+     "validFrom": "2026-08-01", "validUntil": "2026-10-31",
+     "approvedBy": "admin-zhao", "approvedAt": "2026-07-22"},
+    {"id": "permit-c", "team": "team-7", "parcel": "p-19", "quotaKg": "10",
+     "surveyVersion": "survey-2026-2", "parcelVersion": "geo-2026-1",
+     "validFrom": "2026-08-01", "validUntil": "2026-10-31",
+     "approvedBy": "admin-zhao", "approvedAt": "2026-07-25"}
+  ],
+  "events": [
+    {"device": "field-3", "sequence": 18, "permitId": "permit-a",
+     "capturedAt": "2026-09-10T09:00:00", "receivedAt": "2026-09-10T11:00:00",
+     "lat": 31.2020, "lon": 103.5020, "accuracyMeters": "12", "massKg": "20", "offline": true},
+    {"device": "field-3", "sequence": 18, "permitId": "permit-a",
+     "capturedAt": "2026-09-10T09:00:00", "receivedAt": "2026-09-12T08:10:00",
+     "lat": 31.2020, "lon": 103.5020, "accuracyMeters": "36", "massKg": "20", "offline": true},
+    {"device": "field-3", "sequence": 19, "permitId": "permit-a",
+     "capturedAt": "2026-09-10T09:20:00", "receivedAt": "2026-09-12T08:10:00",
+     "lat": 31.2080, "lon": 103.5080, "accuracyMeters": "12", "massKg": "18", "offline": true},
+    {"device": "field-3", "sequence": 20, "permitId": "permit-a",
+     "capturedAt": "2026-09-11T08:30:00", "receivedAt": "2026-09-12T08:10:00",
+     "lat": 31.20527, "lon": 103.50500, "accuracyMeters": "36", "massKg": "8", "offline": true},
+    {"device": "field-3", "sequence": 21, "permitId": "permit-b",
+     "capturedAt": "2026-09-11T10:00:00", "receivedAt": "2026-09-12T08:10:00",
+     "lat": 31.2080, "lon": 103.5080, "accuracyMeters": "12", "massKg": "22", "offline": true},
+    {"device": "field-3", "sequence": 22, "permitId": "permit-b",
+     "capturedAt": "2026-09-11T10:40:00", "receivedAt": "2026-09-12T08:10:00",
+     "lat": 31.2090, "lon": 103.5090, "accuracyMeters": "12", "massKg": "12", "offline": true},
+    {"device": "field-3", "sequence": 23, "permitId": "permit-a",
+     "capturedAt": "2026-09-12T07:15:00", "receivedAt": "2026-09-12T08:10:00",
+     "lat": 31.2200, "lon": 103.5050, "accuracyMeters": "36", "massKg": "5", "offline": true}
+  ],
+  "actions": [
+    {"type": "correction", "device": "field-3", "sequence": 19,
+     "actor": "ranger-wang", "at": "2026-09-13T10:00:00",
+     "newMassKg": "17", "note": "社区报量单复核：筐皮多扣 1kg，追加勘误"},
+    {"type": "suspend", "permitId": "permit-c", "actor": "admin-zhao",
+     "at": "2026-09-12", "reason": "p-19 巡护栈道汛期临时管制"},
+    {"type": "appealOpen", "device": "field-3", "sequence": 20,
+     "openedBy": "community-leader-1", "at": "2026-09-13T09:00:00"},
+    {"type": "appealDecide", "device": "field-3", "sequence": 20,
+     "reviewer": "ranger-liu", "release": false, "at": "2026-09-14T09:30:00",
+     "rationale": "原点位于核心保护区边界，36m 精度圆盘与核心区边界相交，存疑从禁，维持隔离"},
+    {"type": "correction", "device": "field-3", "sequence": 21,
+     "actor": "ranger-wang", "at": "2026-09-14T14:00:00",
+     "newMassKg": "15", "note": "申诉随附转运站复称单：22kg 为毛重，净重 15kg，追加勘误"},
+    {"type": "appealOpen", "device": "field-3", "sequence": 22,
+     "openedBy": "community-leader-1", "at": "2026-09-14T15:00:00"},
+    {"type": "appealDecide", "device": "field-3", "sequence": 22,
+     "reviewer": "ranger-liu", "release": true, "at": "2026-09-15T09:00:00",
+     "rationale": "复称勘误后许可、团队、地块、物种四本账余额均充足，解除隔离并计入合法收获"}
+  ]
+}
