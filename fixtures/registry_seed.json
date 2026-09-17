@@ -1,0 +1,147 @@
+{
+  "patrol_id": "patrol-2026-09-13",
+  "surveys": [
+    {
+      "version": "survey-2026-1",
+      "effective_from": "2026-01-01",
+      "species": {
+        "QH": {"name": "羌活", "protection_level": "国家二级保护野生药材", "annual_quota_kg": "300"}
+      }
+    },
+    {
+      "version": "survey-2026-2",
+      "effective_from": "2026-06-01",
+      "species": {
+        "QH": {"name": "羌活", "protection_level": "国家二级保护野生药材", "annual_quota_kg": "500"}
+      }
+    }
+  ],
+  "parcel_layers": [
+    {
+      "version": "parcel-2026-3",
+      "effective_from": "2026-06-01",
+      "parcels": {
+        "p-17": {
+          "ring": [
+            [31.09820, 103.19790],
+            [31.10180, 103.19790],
+            [31.10180, 103.20210],
+            [31.09820, 103.20210]
+          ],
+          "species_quota_kg": {"QH": "120"}
+        },
+        "p-17-overlap": {
+          "ring": [
+            [31.09820, 103.20000],
+            [31.10180, 103.20000],
+            [31.10180, 103.20420],
+            [31.09820, 103.20420]
+          ],
+          "species_quota_kg": {"QH": "90"}
+        }
+      },
+      "core_zones": {
+        "core-9": [
+          [31.10000, 103.20090],
+          [31.10200, 103.20090],
+          [31.10200, 103.20230],
+          [31.10000, 103.20230]
+        ]
+      }
+    }
+  ],
+  "teams": [
+    {"team_id": "team-qingfeng", "name": "青峰采集团", "annual_quota_kg": "200"}
+  ],
+  "permits": [
+    {
+      "permit_id": "permit-a",
+      "team_id": "team-qingfeng",
+      "species_code": "QH",
+      "survey_version": "survey-2026-2",
+      "parcel_version": "parcel-2026-3",
+      "parcel_id": "p-17",
+      "valid_from": "2026-08-01",
+      "valid_until": "2026-10-31",
+      "quota_kg": "45",
+      "approver": "officer-wang"
+    },
+    {
+      "permit_id": "permit-b",
+      "team_id": "team-qingfeng",
+      "species_code": "QH",
+      "survey_version": "survey-2026-2",
+      "parcel_version": "parcel-2026-3",
+      "parcel_id": "p-17-overlap",
+      "valid_from": "2026-08-01",
+      "valid_until": "2026-10-31",
+      "quota_kg": "30",
+      "approver": "officer-wang"
+    },
+    {
+      "permit_id": "permit-c",
+      "team_id": "team-qingfeng",
+      "species_code": "QH",
+      "survey_version": "survey-2026-2",
+      "parcel_version": "parcel-2026-3",
+      "parcel_id": "p-17",
+      "valid_from": "2026-11-01",
+      "valid_until": "2026-11-30",
+      "quota_kg": "10",
+      "approver": "officer-wang"
+    }
+  ],
+  "events": [
+    {
+      "device_id": "field-3", "sequence": 14, "permit_id": "permit-a",
+      "captured_at": "2026-09-10T08:10:00+08:00", "received_at": "2026-09-13T11:02:00+08:00",
+      "latitude": "31.09950", "longitude": "103.19950", "accuracy_meters": "12", "mass_kg": "12"
+    },
+    {
+      "device_id": "field-3", "sequence": 15, "permit_id": "permit-a",
+      "captured_at": "2026-09-11T09:00:00+08:00", "received_at": "2026-09-13T10:55:00+08:00",
+      "latitude": "31.10020", "longitude": "103.20020", "accuracy_meters": "15", "mass_kg": "20",
+      "erratum": {"mass_kg": "18", "reason": "复称发现现场秤未去皮", "actor": "ranger-chen"}
+    },
+    {
+      "device_id": "field-3", "sequence": 16, "permit_id": "permit-b",
+      "captured_at": "2026-09-11T10:00:00+08:00", "received_at": "2026-09-13T10:58:00+08:00",
+      "latitude": "31.10050", "longitude": "103.20120", "accuracy_meters": "14", "mass_kg": "10"
+    },
+    {
+      "device_id": "field-3", "sequence": 17, "permit_id": "permit-a",
+      "captured_at": "2026-09-12T07:30:00+08:00", "received_at": "2026-09-13T10:40:00+08:00",
+      "latitude": "31.09920", "longitude": "103.19920", "accuracy_meters": "10", "mass_kg": "7"
+    },
+    {
+      "device_id": "field-3", "sequence": 18, "permit_id": "permit-a",
+      "captured_at": "2026-09-12T08:00:00+08:00", "received_at": "2026-09-13T10:30:00+08:00",
+      "latitude": "31.09975", "longitude": "103.20150", "accuracy_meters": "36", "mass_kg": "8",
+      "appeal": {
+        "appellant": "captain-li",
+        "grounds": "雨后定位漂移，事后差分GPS复测采集点距核心区边界约30米，精度圆不应判越界",
+        "reviewer": "reviewer-zhou",
+        "uphold": false,
+        "rationale": "复核差分GPS轨迹与采集照片EXIF，确认点位距核心区南界28米，复测精度8米，缓冲圆不越界；改按复测精度判定",
+        "corrections": {"accuracy_meters": "8"}
+      }
+    },
+    {
+      "device_id": "field-3", "sequence": 19, "permit_id": "permit-b",
+      "captured_at": "2026-09-12T09:30:00+08:00", "received_at": "2026-09-13T10:35:00+08:00",
+      "latitude": "31.10050", "longitude": "103.20480", "accuracy_meters": "12", "mass_kg": "5"
+    },
+    {
+      "device_id": "field-3", "sequence": 20, "permit_id": "permit-a",
+      "captured_at": "2026-09-12T10:10:00+08:00", "received_at": "2026-09-13T10:32:00+08:00",
+      "latitude": "31.09940", "longitude": "103.19960", "accuracy_meters": "11", "mass_kg": "3",
+      "appeal": {
+        "appellant": "captain-li",
+        "grounds": "认为许可余额仍有3公斤",
+        "reviewer": "reviewer-zhou",
+        "uphold": true,
+        "rationale": "按采集时间归位核算，许可45公斤已在该记录之前被前四次合法采集占满，维持隔离，不计入合法收获"
+      }
+    }
+  ]
+}
